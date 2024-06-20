@@ -98,6 +98,103 @@
 // }
 // console.log(selectElement(arr));
 
+//13-masala
+// function findindexElement(arr) {
+//   return arr.indexOf("qizil");
+// }
+// let arr = ["sariq", "yashil", "ko`k", "qizil"];
+
+// console.log(findindexElement(arr));
+
+//14-masala
+// let arr = ["sariq", "yashil", "ko`k", "qizil"];
+// function spliceElement(arr) {
+//   arr.splice(0, 2);
+//   return arr;
+// }
+
+// console.log(spliceElement(arr));
+
+//15-masala
+// function removeElement(arr) {
+//   return arr;
+// }
+// console.log(removeElement(arr[(1, 2, 3, 4, 5)]));
+
+//16-masala
+// function addTwoElement(arr1, arr2) {
+//   let res = arr1.concat(arr2);
+//   return res;
+// }
+// let a = [1, 2, 3];
+// let b = [6, 9, 11];
+// console.log(addTwoElement(a, b));
+
+//17-masala
+// function changeFirstAndLastElement(arr) {
+//   let first = arr[0];
+//   let last = arr[arr.length - 1];
+//   arr[0] = last;
+//   arr[arr.length - 1] = first;
+//   return arr;
+// }
+// let arr = [1, 2, 3, 4, 5];
+// console.log(changeFirstAndLastElement(arr));
+
+//18-masala
+// let arr = ["olma", "mandarin", "behi", "apelsin"];
+// function removeAllElement(arr) {
+//   while (i < arr) {
+//     arr.pop;
+//   }
+//   return arr;
+// }
+
+// console.log(removeAllElement(arr));
+
+//19-masala
+
+//20-masala
+// let arr = ["olma", "mandarin", "behi", "apelsin"];
+// function repeatElement(arr) {
+//   for (let i = 0; i <= arr.length; i += 2) {
+//     console.log(i);
+//   }
+//   return arr;
+// }
+// console.log(repeatElement(arr));
+
+//24-masala
+// let arr = ["olma", "mandarin", "behi", "apelsin"];
+// function reverseElement(arr) {
+//   arr.reverse();
+//   return arr;
+// }
+// console.log(reverseElement(arr));
+
+//25-masala
+// let arr = [-1, -2, 2, 3, 5, 6, 8];
+// function filtrElement(arr) {
+//   return arr > 0;
+// }
+// console.log(filtrElement(arr));
+
+//33-masala
+// let arr1 = [10, 5, 16, 8];
+// let arr2 = [5, 9, 17];
+// function concatElement(arr) {
+//   let res = arr1.concat(arr2);
+//   return res;
+// }
+// console.log(concatElement(arr));
+
+//35-masala
+let arr = ["matiz", "damas", "cobalt", "spark"];
+function selectElement(arr) {
+  arr.sort();
+  return arr;
+}
+console.log(selectElement(arr));
 // Massiv metodlariga oid masalalar
 
 // 1-masala
@@ -224,10 +321,10 @@
 // console.log(findlastindexElement(arr));
 
 //16-masala
-let arr = ["matiz", "damas", "cobalt", "spark"];
-function spliceElement(arr) {
-  arr.splice(0, 3, "gentra", "nexia", "captiva");
-  return arr;
-}
+// let arr = ["matiz", "damas", "cobalt", "spark"];
+// function spliceElement(arr) {
+//   arr.splice(0, 3, "gentra", "nexia", "captiva");
+//   return arr;
+// }
 
-console.log(spliceElement(arr));
+// console.log(spliceElement(arr));
