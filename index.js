@@ -189,12 +189,12 @@
 // console.log(concatElement(arr));
 
 //35-masala
-let arr = ["matiz", "damas", "cobalt", "spark"];
-function selectElement(arr) {
-  arr.sort();
-  return arr;
-}
-console.log(selectElement(arr));
+// let arr = ["matiz", "damas", "cobalt", "spark"];
+// function selectElement(arr) {
+//   arr.sort();
+//   return arr;
+// }
+// console.log(selectElement(arr));
 // Massiv metodlariga oid masalalar
 
 // 1-masala
